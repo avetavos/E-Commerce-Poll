@@ -1,0 +1,55 @@
+@font-face {
+    font-family: myFont;
+    src: url('font/THSarabunNew.ttf');
+}
+
+body {
+    font-family: myFont;
+    font-size: 20px;
+    background: rgb(0, 184, 255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(0, 184, 255) 0%, rgb(0, 184, 255) 20%, rgba(249,249,249,1) 20%, rgba(249,249,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(0, 184, 255) 0%,rgb(0, 184, 255) 20%,rgba(249,249,249,1) 20%,rgba(249,249,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(0, 184, 255) 0%,rgb(0, 184, 255) 20%,rgba(249,249,249,1) 20%,rgba(249,249,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5ff', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
+
+}
+
+.header {
+    padding: 0.5px 5px;
+}
+
+h1 {
+    margin: 3% 0;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.main_container {
+    padding: 2px;
+    margin: 20px 10% 0 10%;
+    width: 80%;
+    background: #dbdbdb;
+}
+
+.header_container {
+    padding: 2px 5px;
+    margin: 1% 5%;
+    font-size: 25px;
+}
+
+.container {
+    padding: 2px 5px;
+    background: #f2f2f2;
+    margin: 2% 5%;
+    font-size: 25px;
+    box-shadow: 5px 5px #c7c7c7;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.container input {
+    margin: 10px 0 15px 3%;
+}
