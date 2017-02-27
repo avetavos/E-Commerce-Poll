@@ -1,0 +1,93 @@
+@font-face {
+    font-family: myFont;
+    src: url('font/THSarabunNew.ttf');
+}
+
+body {
+    font-family: myFont;
+    background-image: url("http://i.imgur.com/GOzPJ3c.png");
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+    background-size: 100%;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ff4274;
+    width: 100%;
+    padding: 3% 0;
+    float: left;
+    color: #ffffff;
+    font-size: 4vmax;
+}
+
+h2 {
+    margin-top: 22%;
+    font-size: 3vmax;
+}
+
+.main_container {
+    padding: 2px;
+    top: 15%;
+    transform: translate(10%);
+    width: 80%;
+    background: #ffffff;
+
+}
+
+.header_container {
+    margin: 0 5%;
+}
+
+.container {
+    margin: 0 5%;
+    font-size: 2.5vmax;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.container input {
+    margin: 10px 0 15px 3%;
+}
+
+input[type=submit] {
+    width: 60%;
+    padding: 12px 20px;
+    background-color: #4cc0bf;
+    margin: 50px 0 50px 20%;
+    font-weight: bold;
+    border: none;
+    font-family: myFont;
+    cursor: pointer;
+    font-size: 2.5vmax;
+}
+
+input[type=radio], input[type=checkbox]{
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    font-size: 2.5vmax;
+}
+
+input:checked {
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+label {
+    margin-left: 2%;
+}
+
+.note {
+    font-size: 2vmax;
+    color: red;
+    font-weight: bold;
+}
