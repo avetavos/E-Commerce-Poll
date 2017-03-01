@@ -32,10 +32,10 @@ h2 {
 .main_container {
     padding: 2px;
     top: 15%;
-    transform: translate(10%);
-    width: 80%;
+    transform: translate(50%);
+    width: 65%;
     background: #ffffff;
-
+    float: left;
 }
 
 .header_container {
